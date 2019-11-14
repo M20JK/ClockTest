@@ -13,9 +13,9 @@
       <p id="clock"></p>
       <h2 id="PM"></h2>
     </div>
-    <br>
+    <br />
 
-    <footer>CopyRight &copy; Mohammed Jawad</footer>
+    <footer>CopyRight &copy; <b> Mohammed Jawad</b></footer>
 
     <style>
       * {
@@ -23,7 +23,7 @@
         padding: 0;
       }
       body {
-        background-color: lightseagreen;
+        background-color: #607D8B;
       }
       #container {
         display: flex;
@@ -41,9 +41,16 @@
       }
       #hh2 {
         color: darkblue;
-
-        @
       }
+      @media only screen and (max-width:768px) {
+        body {
+          background-color: #03A9F4;
+        }
+        #container{
+          margin-top: 50%;
+          margin-bottom: 50%;
+        }
+        }
 
       footer {
         margin-bottom: 0;
